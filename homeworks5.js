@@ -11,8 +11,8 @@ function digithOddOfEven (number) {
                      odd.push(number[i])
             }
     }
-            console.log(odd)
-            console.log(even)
+            return odd;
+            return even;
            
 }
 
@@ -61,7 +61,7 @@ function uniqueElements (array) {
           result.push(replc)
       }
   }
-  return result.join("")
+  return result +''
 }
 
 third('This is some text.', 'is',"")
